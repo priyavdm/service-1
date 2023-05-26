@@ -1,0 +1,10 @@
+p{
+    display: flex;
+    justify-content: center;
+}
+table,table thead tr th,table tbody tr td{
+    // display: flex;
+    // justify-content: center;
+    border-collapse:collapse;
+    border: 2px solid #000;   
+}

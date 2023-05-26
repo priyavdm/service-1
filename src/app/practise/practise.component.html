@@ -1,0 +1,21 @@
+<p>practise works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>message</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let e of userslist">
+        <tr>
+            <td>{{e.id}}</td>
+            <td>{{e.username}}</td>
+            <td>{{e.email}}</td>
+            <td>{{e.message}}</td>
+            <button (click)="deleteUser(e.id)">delete</button>
+        </tr>
+    </tbody>
+</table>
